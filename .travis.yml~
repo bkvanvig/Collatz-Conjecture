@@ -3,7 +3,6 @@ language: cpp
 compiler: gcc
 
 before_install:
-    - sudo: required
     - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
     - sudo apt-get update
 
