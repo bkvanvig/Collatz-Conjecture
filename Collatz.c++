@@ -49,7 +49,7 @@ int collatz_eval (int i, int j) {
 // collatz_calc
 // -------------
 int collatz_calc (int i){
-    int cycle_length = 1;
+    int cycle_length = 0;
     while (i != 1){
         if ((i%2)==1){
             i = 3*i+1;
