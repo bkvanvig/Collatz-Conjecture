@@ -35,7 +35,33 @@ pair<int, int> collatz_read (const string& s) {
 
 int collatz_eval (int i, int j) {
     // <your code>
-    return 1;}
+    int max_cycle_length = 0;
+    int curr_cycle_length = 0;
+
+    for (int bound = i; bound<=j; bound++){
+        curr_cycle_length= collatz_calc(bound);
+        if (curr_cycle_length>max_cycle_length){
+            max_cycle_length=curr_cycle_length;
+        }
+    }
+    return max_cycle_length;}
+// -------------
+// collatz_calc
+// -------------
+int collatz_calc (int i){
+    int cycle_length = 1;
+    while (i != 1){
+        if ((i%2)==1){
+            i = 3*i+1;
+            cycle_length++;
+        }
+        else{
+            i = i/2;
+            cycle_length++;
+        }
+    }
+    return cycle_length;
+}
 
 // -------------
 // collatz_print
