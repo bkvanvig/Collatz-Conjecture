@@ -37,6 +37,11 @@ pair<int, int> collatz_read (const string& s);
  * @param j the end       of the range, inclusive
  * @return the max cycle length of the range [i, j]
  */
+ // -------------
+// collatz_calc
+// -------------
+int collatz_calc (int i);
+
 int collatz_eval (int i, int j);
 
 // -------------
