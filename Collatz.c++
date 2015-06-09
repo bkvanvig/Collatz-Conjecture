@@ -60,7 +60,7 @@ int collatz_calc (int i){
             cycle_length++;
         }
     }
-    return cycle_length;
+    return cycle_length+1;
 }
 
 // -------------
