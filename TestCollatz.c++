@@ -72,7 +72,7 @@ TEST(CollatzFixture, solve) {
     istringstream r("1 10\n100 200\n201 210\n900 1000\n");
     ostringstream w;
     collatz_solve(r, w);
-    EXPECT_EQ("1 10 201\n100 200 125\n201 210 89\n900 1000 174\n", w.str());}
+    EXPECT_EQ("1 10 20\n100 200 125\n201 210 89\n900 1000 174\n", w.str());}
 
 /*
 % ls -al /usr/include/gtest/
