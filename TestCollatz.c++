@@ -34,6 +34,21 @@ TEST(CollatzFixture, read) {
     const pair<int, int> p = collatz_read(s);
     ASSERT_EQ( 1, p.first);
     ASSERT_EQ(10, p.second);}
+TEST(CollatzFixture, read) {
+    string s("100000 1000000\n");
+    const pair<int, int> p = collatz_read(s);
+    ASSERT_EQ( 100000, p.first);
+    ASSERT_EQ(1000000, p.second);}
+TEST(CollatzFixture, read) {
+    string s("999999 1000000\n");
+    const pair<int, int> p = collatz_read(s);
+    ASSERT_EQ( 999999, p.first);
+    ASSERT_EQ(1000000, p.second);}
+TEST(CollatzFixture, read) {
+    string s("827599 977399\n");
+    const pair<int, int> p = collatz_read(s);
+    ASSERT_EQ(827599, p.first);
+    ASSERT_EQ(977399, p.second);}
 
 // ----
 // eval
@@ -55,6 +70,28 @@ TEST(CollatzFixture, eval_4) {
     const int v = collatz_eval(900, 1000);
     ASSERT_EQ(174, v);}
 
+// ----
+// calc
+// ----
+TEST(CollatzFixture, eval_1) {
+    const int v = collatz_calc(5);
+    ASSERT_EQ(6, v);}
+
+TEST(CollatzFixture, eval_2) {
+    const int v = collatz_calc(10);
+    ASSERT_EQ(7, v);}
+
+TEST(CollatzFixture, eval_3) {
+    const int v = collatz_calc(27);
+    ASSERT_EQ(112, v);}
+
+TEST(CollatzFixture, eval_4) {
+    const int v = collatz_calc(999);
+    ASSERT_EQ(50, v);}
+TEST(CollatzFixture, eval_4) {
+    const int v = collatz_calc(999999);
+    ASSERT_EQ(259, v);}
+
 // -----
 // print
 // -----
@@ -63,6 +100,11 @@ TEST(CollatzFixture, print) {
     ostringstream w;
     collatz_print(w, 1, 10, 20);
     ASSERT_EQ("1 10 20\n", w.str());}
+TEST(CollatzFixture, print) {
+    ostringstream w;
+    collatz_print(w, 10, 100, 2000);
+    ASSERT_EQ("10 100 2000\n", w.str());}
+
 
 // -----
 // solve
