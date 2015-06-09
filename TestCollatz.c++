@@ -29,22 +29,22 @@ using namespace std;
 // read
 // ----
 
-TEST(CollatzFixture, read) {
+TEST(CollatzFixture, read_1) {
     string s("1 10\n");
     const pair<int, int> p = collatz_read(s);
     ASSERT_EQ( 1, p.first);
     ASSERT_EQ(10, p.second);}
-TEST(CollatzFixture, read) {
+TEST(CollatzFixture, read_2) {
     string s("100000 1000000\n");
     const pair<int, int> p = collatz_read(s);
     ASSERT_EQ( 100000, p.first);
     ASSERT_EQ(1000000, p.second);}
-TEST(CollatzFixture, read) {
+TEST(CollatzFixture, read_3) {
     string s("999999 1000000\n");
     const pair<int, int> p = collatz_read(s);
     ASSERT_EQ( 999999, p.first);
     ASSERT_EQ(1000000, p.second);}
-TEST(CollatzFixture, read) {
+TEST(CollatzFixture, read_4) {
     string s("827599 977399\n");
     const pair<int, int> p = collatz_read(s);
     ASSERT_EQ(827599, p.first);
@@ -73,22 +73,22 @@ TEST(CollatzFixture, eval_4) {
 // ----
 // calc
 // ----
-TEST(CollatzFixture, eval_1) {
+TEST(CollatzFixture, calc_1) {
     const int v = collatz_calc(5);
     ASSERT_EQ(6, v);}
 
-TEST(CollatzFixture, eval_2) {
+TEST(CollatzFixture, calc_2) {
     const int v = collatz_calc(10);
     ASSERT_EQ(7, v);}
 
-TEST(CollatzFixture, eval_3) {
+TEST(CollatzFixture, calc_3) {
     const int v = collatz_calc(27);
     ASSERT_EQ(112, v);}
 
-TEST(CollatzFixture, eval_4) {
+TEST(CollatzFixture, calc_4) {
     const int v = collatz_calc(999);
     ASSERT_EQ(50, v);}
-TEST(CollatzFixture, eval_4) {
+TEST(CollatzFixture, calc_5) {
     const int v = collatz_calc(999999);
     ASSERT_EQ(259, v);}
 
@@ -96,11 +96,11 @@ TEST(CollatzFixture, eval_4) {
 // print
 // -----
 
-TEST(CollatzFixture, print) {
+TEST(CollatzFixture, print_1) {
     ostringstream w;
     collatz_print(w, 1, 10, 20);
     ASSERT_EQ("1 10 20\n", w.str());}
-TEST(CollatzFixture, print) {
+TEST(CollatzFixture, print_2) {
     ostringstream w;
     collatz_print(w, 10, 100, 2000);
     ASSERT_EQ("10 100 2000\n", w.str());}
