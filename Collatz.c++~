@@ -37,12 +37,6 @@ int collatz_eval (int i, int j) {
     // <your code>
     int max_cycle_length = 0;
     int curr_cycle_length = 0;
-    
-    if (i>j){
-	int temp = i;
-	i = j;
-	j = temp;
-    }
 
     for (int bound = i; bound<=j; bound++){
         curr_cycle_length= collatz_calc(bound);
