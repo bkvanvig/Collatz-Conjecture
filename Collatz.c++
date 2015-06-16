@@ -118,7 +118,9 @@ void collatz_print (ostream& w, int i, int j, int v) {
 
 void collatz_solve (istream& r, ostream& w) {
     if (init==0){
+        w << "inside init" << endl;
         populate_cache(1, 1000); 
+        w << "populated cache" << endl;
         init = 1;
     }
     string s;
