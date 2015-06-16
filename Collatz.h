@@ -16,7 +16,8 @@
 #include <utility>  // pair
 
 using namespace std;
-
+int init = 0;
+int cache [1001] = {0};
 // ------------
 // collatz_read
 // ------------

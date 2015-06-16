@@ -21,8 +21,7 @@ using namespace std;
 // ------------
 // collatz_read
 // ------------
-int init = 0;
-int cache [1000001];
+
 
 pair<int, int> collatz_read (const string& s) {
     istringstream sin(s);
