@@ -90,7 +90,7 @@ TEST(CollatzFixture, calc_4) {
     ASSERT_EQ(50, v);}
 TEST(CollatzFixture, calc_5) {
     const int v = collatz_calc(9);
-    ASSERT_EQ(259, v);}
+    ASSERT_EQ(20, v);}
 
 // -----
 // print
