@@ -79,7 +79,5 @@ void collatz_print (ostream& w, int i, int j, int v);
  * @param w an ostream
  */
 void collatz_solve (istream& r, ostream& w);
-int init = 0;
-int cache [1001] = {0};
 
 #endif // Collatz_h
