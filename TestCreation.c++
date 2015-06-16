@@ -10,7 +10,7 @@ int main () {
 	int num2;
 	int bignum = 9;
 	for (int i = 0; i <100; ++i){
-		if ((i % 25)==0){
+		if ((i % 50)==0){
 			bignum = bignum*10+9;}
 		num1 = rand() % bignum + 1;
 		num2 = rand() % bignum + 1;
