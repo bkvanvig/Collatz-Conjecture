@@ -118,13 +118,13 @@ int collatz_eval (int i, int j) {
     assert(i>0);
 
     if (init_cache){
-        populate_cache(1, 100000);
+        populate_cache(1, 1000);
         init_cache = 1;
     }
 
     for (int bound = i; bound<=j; bound++){
         if (cache[bound]!=0)
-            curr_cycle_length+=cache[bound];
+            curr_cycle_length=cache[bound];
         else{
             curr_cycle_length= collatz_calc(bound);
             cache[bound] = curr_cycle_length;
@@ -134,7 +134,7 @@ int collatz_eval (int i, int j) {
             max_cycle_length=curr_cycle_length;
         }
     }
-    assert(max_cycle_length >0);
+    assert(max_cycle_length>0);
     return max_cycle_length;}
 // -------------
 // collatz_calc
@@ -171,9 +171,9 @@ void populate_cache (int i, int j){
     }
     
     assert (i<=j);
-
-    for (i; i<=j; i++){
+    while (i<=j){
         cache[i]=collatz_calc(i);
+        ++i;
     }
     return;
 }

@@ -104,8 +104,9 @@ void populate_cache (int i, int j){
     
     assert (i<=j);
 
-    for (i; i<=j; ++i){
+    while(i<=j){
         cache[i]=collatz_calc(i);
+        ++i;
     }
     return;
 }
