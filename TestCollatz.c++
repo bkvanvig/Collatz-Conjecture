@@ -49,6 +49,15 @@ TEST(CollatzFixture, read_4) {
     const pair<int, int> p = collatz_read(s);
     ASSERT_EQ(827599, p.first);
     ASSERT_EQ(977399, p.second);}
+// ----
+// populate_cache
+// ----
+TEST(CollatzFixture, pop_1){
+    populate_cache(1,10);
+    int v = cache[1];
+    ASSERT_EQ(1, v);
+}
+
 
 // ----
 // eval

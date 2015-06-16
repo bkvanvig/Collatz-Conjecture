@@ -39,7 +39,7 @@ int collatz_eval (int i, int j) {
     int max_cycle_length = 0;
     int curr_cycle_length = 0;
     
-    populate_cache(1,1000);
+    //populate_cache(1,1000);
 
     if (i>j){
 	   int temp = i;
@@ -89,7 +89,16 @@ int collatz_calc (int i){
 
 void populate_cache (int i, int j){
     assert(i > 0);
+    assert(i <= 1000000);
+    assert(j > 0);
     assert(j <= 1000000);
+    if (i>j){
+       int temp = i;
+       i = j;
+       j = temp;
+    }
+    
+    assert (i<=j);
 
     for (int i; i<=j; i++){
         cache[i]=collatz_calc(i);
