@@ -21,8 +21,8 @@ using namespace std;
 // ------------
 // collatz_read
 // ------------
-int init = 0;
-int cache [1000001] = {0};
+int init_cache = 0;
+unsigned int cache [1000001] = {(unsigned)0};
 
 pair<int, int> collatz_read (const string& s) {
     istringstream sin(s);
@@ -49,6 +49,11 @@ int collatz_eval (int i, int j) {
     assert (i<=j);
     assert(i>0);
 
+    if (init_cache){
+        populate_cache(1, 100000);
+        init_cache = 1;
+    }
+
     for (int bound = i; bound<=j; bound++){
         if (cache[bound]!=0)
             curr_cycle_length=cache[bound];
@@ -71,11 +76,11 @@ int collatz_calc (int i){
 
     while (i != 1){
         if ((i%2)==1){
-            i = 3*i+1;
-            cycle_length++;
+            i = i + (i>>1) + 1;
+            cycle_length+=2;
         }
         else{
-            i = i/2;
+            i = i>>1;
             cycle_length++;
         }
     }
