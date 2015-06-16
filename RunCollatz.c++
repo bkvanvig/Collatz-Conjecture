@@ -26,6 +26,7 @@
 
 int main () {
     using namespace std;
+    populate_cache(1,1000);
     collatz_solve(cin, cout);
     return 0;}
 

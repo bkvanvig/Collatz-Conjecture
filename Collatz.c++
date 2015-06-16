@@ -38,8 +38,6 @@ int collatz_eval (int i, int j) {
     // <your code>
     int max_cycle_length = 0;
     int curr_cycle_length = 0;
-    
-    //populate_cache(1,1000);
 
     if (i>j){
 	   int temp = i;
