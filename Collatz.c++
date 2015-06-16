@@ -116,6 +116,7 @@ void collatz_print (ostream& w, int i, int j, int v) {
 // -------------
 
 void collatz_solve (istream& r, ostream& w) {
+    populate_cache(1, 1000);
     string s;
     while (getline(r, s)) {
         const pair<int, int> p = collatz_read(s);
