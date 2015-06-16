@@ -51,7 +51,13 @@ int collatz_eval (int i, int j) {
     assert(i>0);
 
     for (int bound = i; bound<=j; bound++){
-        curr_cycle_length= collatz_calc(bound);
+        if (cache[bound]!=0)
+            curr_cycle_length=cache[bound];
+        else{
+            curr_cycle_length= collatz_calc(bound);
+            cache[bound] = curr_cycle_length;
+        }
+            
         if (curr_cycle_length>max_cycle_length){
             max_cycle_length=curr_cycle_length;
         }
@@ -65,7 +71,6 @@ int collatz_calc (int i){
     int cycle_length = 0;
 
     while (i != 1){
-
         if ((i%2)==1){
             i = 3*i+1;
             cycle_length++;
