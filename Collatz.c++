@@ -101,6 +101,7 @@ void populate_cache (int i, int j){
     for (int i; i<=j; i++){
         cache[i]=collatz_calc(i);
     }
+    return;
 }
 
 // -------------
