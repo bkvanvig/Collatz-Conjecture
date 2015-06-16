@@ -56,7 +56,7 @@ int collatz_eval (int i, int j) {
 
     for (int bound = i; bound<=j; bound++){
         if (cache[bound]!=0)
-            curr_cycle_length+=cache[bound];
+            curr_cycle_length=cache[bound];
         else{
             curr_cycle_length= collatz_calc(bound);
             cache[bound] = curr_cycle_length;
@@ -104,7 +104,7 @@ void populate_cache (int i, int j){
     
     assert (i<=j);
 
-    for (i; i<=j; i++){
+    for (i; i<=j; ++i){
         cache[i]=collatz_calc(i);
     }
     return;

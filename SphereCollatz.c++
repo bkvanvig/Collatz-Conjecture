@@ -7,14 +7,6 @@
 #ifndef Collatz_h
 #define Collatz_h
 
-
-
-// ----------------------------
-// projects/collatz/Collatz.c++
-// Copyright (C) 2015
-// Glenn P. Downing
-// ----------------------------
-
 // --------
 // includes
 // --------
@@ -38,11 +30,6 @@ using namespace std;
  */
 pair<int, int> collatz_read (const string& s);
 
- // -------------
-// collatz_calc
-// -------------
-int collatz_calc (int i);
-
 // ------------
 // collatz_eval
 // ------------
@@ -52,9 +39,25 @@ int collatz_calc (int i);
  * @param j the end       of the range, inclusive
  * @return the max cycle length of the range [i, j]
  */
-
-
 int collatz_eval (int i, int j);
+
+// -------------
+// collatz_calc
+// -------------
+
+/**
+ * calculate cycle length of i
+ */
+int collatz_calc (int i);
+
+// -------------
+// populate_cache
+// -------------
+
+/**
+ * fill in cycle lengths for indicies i-j
+ */
+void populate_cache (int i, int j);
 
 // -------------
 // collatz_print
@@ -80,6 +83,7 @@ void collatz_print (ostream& w, int i, int j, int v);
 void collatz_solve (istream& r, ostream& w);
 
 #endif // Collatz_h
+
 
 int init_cache = 0;
 unsigned int cache [1000001] = {(unsigned)0};
