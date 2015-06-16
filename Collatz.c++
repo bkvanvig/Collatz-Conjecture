@@ -21,6 +21,8 @@ using namespace std;
 // ------------
 // collatz_read
 // ------------
+int init = 0;
+int cache [1000001] = {0};
 
 pair<int, int> collatz_read (const string& s) {
     istringstream sin(s);
@@ -37,18 +39,24 @@ int collatz_eval (int i, int j) {
     // <your code>
     int max_cycle_length = 0;
     int curr_cycle_length = 0;
-    
+
     if (i>j){
-	int temp = i;
-	i = j;
-	j = temp;
+	   int temp = i;
+	   i = j;
+	   j = temp;
     }
     
     assert (i<=j);
     assert(i>0);
 
     for (int bound = i; bound<=j; bound++){
-        curr_cycle_length= collatz_calc(bound);
+        if (cache[bound]!=0)
+            curr_cycle_length=cache[bound];
+        else{
+            curr_cycle_length= collatz_calc(bound);
+            cache[bound] = curr_cycle_length;
+        }
+            
         if (curr_cycle_length>max_cycle_length){
             max_cycle_length=curr_cycle_length;
         }
@@ -60,6 +68,7 @@ int collatz_eval (int i, int j) {
 // -------------
 int collatz_calc (int i){
     int cycle_length = 0;
+
     while (i != 1){
         if ((i%2)==1){
             i = 3*i+1;
@@ -71,6 +80,29 @@ int collatz_calc (int i){
         }
     }
     return cycle_length+1;
+}
+
+// -------------
+// collatz_calc
+// -------------
+
+void populate_cache (int i, int j){
+    assert(i > 0);
+    assert(i <= 1000000);
+    assert(j > 0);
+    assert(j <= 1000000);
+    if (i>j){
+       int temp = i;
+       i = j;
+       j = temp;
+    }
+    
+    assert (i<=j);
+
+    for (int i; i<=j; i++){
+        cache[i]=collatz_calc(i);
+    }
+    return;
 }
 
 // -------------
