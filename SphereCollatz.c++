@@ -81,6 +81,9 @@ void collatz_solve (istream& r, ostream& w);
 
 #endif // Collatz_h
 
+int init_cache = 0;
+unsigned int cache [1000001] = {(unsigned)0};
+
 // ------------
 // collatz_read
 // ------------
@@ -100,18 +103,29 @@ int collatz_eval (int i, int j) {
     // <your code>
     int max_cycle_length = 0;
     int curr_cycle_length = 0;
-    
+
     if (i>j){
-	int temp = i;
-	i = j;
-	j = temp;
+       int temp = i;
+       i = j;
+       j = temp;
     }
     
     assert (i<=j);
     assert(i>0);
 
+    if (init_cache){
+        populate_cache(1, 100000);
+        init_cache = 1;
+    }
+
     for (int bound = i; bound<=j; bound++){
-        curr_cycle_length= collatz_calc(bound);
+        if (cache[bound]!=0)
+            curr_cycle_length+=cache[bound];
+        else{
+            curr_cycle_length= collatz_calc(bound);
+            cache[bound] = curr_cycle_length;
+        }
+            
         if (curr_cycle_length>max_cycle_length){
             max_cycle_length=curr_cycle_length;
         }
@@ -123,17 +137,41 @@ int collatz_eval (int i, int j) {
 // -------------
 int collatz_calc (int i){
     int cycle_length = 0;
+
     while (i != 1){
         if ((i%2)==1){
-            i = 3*i+1;
-            cycle_length++;
+            i = i + (i>>1) + 1;
+            cycle_length+=2;
         }
         else{
-            i = i/2;
+            i = i>>1;
             cycle_length++;
         }
     }
     return cycle_length+1;
+}
+
+// -------------
+// collatz_calc
+// -------------
+
+void populate_cache (int i, int j){
+    assert(i > 0);
+    assert(i <= 1000000);
+    assert(j > 0);
+    assert(j <= 1000000);
+    if (i>j){
+       int temp = i;
+       i = j;
+       j = temp;
+    }
+    
+    assert (i<=j);
+
+    for (i; i<=j; i++){
+        cache[i]=collatz_calc(i);
+    }
+    return;
 }
 
 // -------------
