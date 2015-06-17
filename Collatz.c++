@@ -17,7 +17,7 @@
 #include "Collatz.h"
 
 using namespace std;
-#define CACHE 0
+#define CACHE 1
 
 #ifdef CACHE
 int init_cache = 0;

@@ -44,12 +44,6 @@ clean:
 	rm -f RunCollatz.out
 	rm -f TestCollatz
 	rm -f TestCollatz.out
-softclean:
-	rm -f *.gcda
-	rm -f *.gcno
-	rm -f *.gcov
-	rm -f RunCollatz
-	rm -f TestCollatz
 
 config:
 	git config -l
