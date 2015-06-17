@@ -45,11 +45,11 @@ int collatz_eval (int i, int j) {
 	   i = j;
 	   j = temp;
     }
-    
+
     assert (i<=j);
     assert(i>0);
 
-    if (init_cache){
+    if (init_cache == 0){
         populate_cache(1, 100000);
         init_cache = 1;
     }
