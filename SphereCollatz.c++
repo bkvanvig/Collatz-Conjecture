@@ -117,7 +117,7 @@ int collatz_eval (int i, int j) {
     assert (i<=j);
     assert(i>0);
 
-    if (init_cache){
+    if (init_cache==0){
         populate_cache(1, 1000);
         init_cache = 1;
     }
