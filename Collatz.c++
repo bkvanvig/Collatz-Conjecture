@@ -70,14 +70,16 @@ int collatz_eval (int i, int j) {
         }
         else
             curr_cycle_length = collatz_calc(bound);
-
-        max_cycle_length = curr_cycle_length > max_cycle_length ? curr_cycle_length : max_cycle_length;
+	max_cycle_length = curr_cycle_length > max_cycle_length ? curr_cycle_length : max_cycle_length;
     }
-    assert(max_cycle_length >0);
+    assert(max_cycle_length>0);
     return max_cycle_length;}
+
+
 // -------------
 // collatz_calc
 // -------------
+
 int collatz_calc (int i){
     int cycle_length = 0;
 
