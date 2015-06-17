@@ -11,6 +11,7 @@
 // includes
 // --------
 
+
 #include <cassert>  // assert
 #include <iostream> // endl, istream, ostream
 #include <sstream>  // istringstream
@@ -84,9 +85,13 @@ void collatz_solve (istream& r, ostream& w);
 
 #endif // Collatz_h
 
+using namespace std;
+#define CACHE 1
 
+#ifdef CACHE
 int init_cache = 0;
 unsigned int cache [1000001] = {(unsigned)0};
+#endif
 
 // ------------
 // collatz_read
@@ -113,28 +118,31 @@ int collatz_eval (int i, int j) {
        i = j;
        j = temp;
     }
-    
+
     assert (i<=j);
     assert(i>0);
 
-    if (init_cache){
-        populate_cache(1, 1000);
+    if (CACHE && init_cache == 0){
+        populate_cache(1, 10000);
         init_cache = 1;
     }
 
     for (int bound = i; bound<=j; bound++){
-        if (cache[bound]!=0)
-            curr_cycle_length=cache[bound];
-        else{
-            curr_cycle_length= collatz_calc(bound);
-            cache[bound] = curr_cycle_length;
+
+        if (CACHE){
+           if (cache[bound]!=0)
+                curr_cycle_length=cache[bound];
+           else {
+                curr_cycle_length= collatz_calc(bound);
+                cache[bound] = curr_cycle_length;
+             } 
         }
-            
-        if (curr_cycle_length>max_cycle_length){
-            max_cycle_length=curr_cycle_length;
-        }
+        else
+            curr_cycle_length = collatz_calc(bound);
+
+        max_cycle_length = curr_cycle_length > max_cycle_length ? curr_cycle_length : max_cycle_length;
     }
-    assert(max_cycle_length>0);
+    assert(max_cycle_length >0);
     return max_cycle_length;}
 // -------------
 // collatz_calc
@@ -171,7 +179,8 @@ void populate_cache (int i, int j){
     }
     
     assert (i<=j);
-    while (i<=j){
+
+    while(i<=j){
         cache[i]=collatz_calc(i);
         ++i;
     }
@@ -211,6 +220,14 @@ void collatz_solve (istream& r, ostream& w) {
 #ifdef ONLINE_JUDGE
     #define NDEBUG
 #endif
+
+// --------
+// includes
+// --------
+
+#include <iostream> // cin, cout
+
+
 
 // ----
 // main

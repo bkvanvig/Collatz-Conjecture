@@ -17,12 +17,16 @@
 #include "Collatz.h"
 
 using namespace std;
+#define CACHE 1
+
+#ifdef CACHE
+int init_cache = 0;
+unsigned int cache [1000001] = {(unsigned)0};
+#endif
 
 // ------------
 // collatz_read
 // ------------
-int init_cache = 0;
-unsigned int cache [1000001] = {(unsigned)0};
 
 pair<int, int> collatz_read (const string& s) {
     istringstream sin(s);
@@ -49,22 +53,25 @@ int collatz_eval (int i, int j) {
     assert (i<=j);
     assert(i>0);
 
-    if (init_cache == 0){
+    if (CACHE && init_cache == 0){
         populate_cache(1, 100000);
         init_cache = 1;
     }
 
     for (int bound = i; bound<=j; bound++){
-        if (cache[bound]!=0)
-            curr_cycle_length=cache[bound];
-        else{
-            curr_cycle_length= collatz_calc(bound);
-            cache[bound] = curr_cycle_length;
+
+        if (CACHE){
+           if (cache[bound]!=0)
+                curr_cycle_length=cache[bound];
+           else {
+                curr_cycle_length= collatz_calc(bound);
+                cache[bound] = curr_cycle_length;
+             } 
         }
-            
-        if (curr_cycle_length>max_cycle_length){
-            max_cycle_length=curr_cycle_length;
-        }
+        else
+            curr_cycle_length = collatz_calc(bound);
+
+        max_cycle_length = curr_cycle_length > max_cycle_length ? curr_cycle_length : max_cycle_length;
     }
     assert(max_cycle_length >0);
     return max_cycle_length;}
