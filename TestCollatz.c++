@@ -122,6 +122,24 @@ TEST(CollatzFixture, calc_4) {
 TEST(CollatzFixture, calc_5) {
     const int v = collatz_calc(999999);
     ASSERT_EQ(259, v);}
+TEST(CollatzFixture, calc_6) {
+    const int v = collatz_calc(222222);
+    ASSERT_EQ(117, v);}
+
+TEST(CollatzFixture, calc_7) {
+    const int v = collatz_calc(879351);
+    ASSERT_EQ(101, v);}
+
+TEST(CollatzFixture, calc_8) {
+    const int v = collatz_calc(77031);
+    ASSERT_EQ(351, v);}
+
+TEST(CollatzFixture, calc_9) {
+    const int v = collatz_calc(900735);
+    ASSERT_EQ(401, v);}
+TEST(CollatzFixture, calc_10) {
+    const int v = collatz_calc(376603);
+    ASSERT_EQ(423, v);}
 
 // -----
 // print
