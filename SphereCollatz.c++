@@ -84,7 +84,6 @@ void collatz_print (ostream& w, int i, int j, int v);
 void collatz_solve (istream& r, ostream& w);
 
 #endif // Collatz_h
-#include "Collatz.h"
 
 using namespace std;
 #define CACHE 1
@@ -124,7 +123,7 @@ int collatz_eval (int i, int j) {
     assert(i>0);
 
     if (CACHE && init_cache == 0){
-        populate_cache(1, 100000);
+        populate_cache(1, 10000);
         init_cache = 1;
     }
 
