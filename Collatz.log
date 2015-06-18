@@ -1,0 +1,763 @@
+commit 477aab4fa62f06a7696bb6a8aeb6f62de93733f9
+Merge: b2f79a2 0f12890
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Wed Jun 17 20:50:21 2015 -0500
+
+    altered log
+
+commit b2f79a21a22119d1aeb915c725cda0986db0c398
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Wed Jun 17 20:46:40 2015 -0500
+
+    final log
+
+commit 0f12890de1b851c2603d6b7e7d8693fb4164e952
+Merge: 6d14132 1c23e8a
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 20:45:58 2015 -0500
+
+    Merge pull request #31 from bkvanvig/master
+    
+    Merge with master
+
+commit 1c23e8aa1b02816fa9c99f731dab6e00f865f46b
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 20:43:58 2015 -0500
+
+    Delete Collatz.c++~
+
+commit fb8f61caff187a77d491b3b12d422961884c13e0
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Wed Jun 17 20:43:07 2015 -0500
+
+    removed ~
+
+commit 9c68be62a59d7179c4f9c52ac2e40d78c8cca697
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Wed Jun 17 20:38:06 2015 -0500
+
+    added log
+
+commit 0f676b10d62d21b6429c98cd51754c7d0e239f16
+Author: bkvanvig <bkvanvig104@yahoo.com>
+Date:   Wed Jun 17 19:20:36 2015 -0500
+
+    doxygen edits
+
+commit fbf271ae79d713b8129874940dc6dcb38169ac28
+Author: bkvanvig <bkvanvig104@yahoo.com>
+Date:   Wed Jun 17 19:16:43 2015 -0500
+
+    updated documentation
+
+commit f3bebecc433b6caad42ed14f91800ced068f7118
+Author: bkvanvig <bkvanvig104@yahoo.com>
+Date:   Wed Jun 17 19:14:49 2015 -0500
+
+    updated html documentation
+
+commit bbf0fc03bbe38e8bb659265ca2d9ec108a9f52fc
+Author: bkvanvig <bkvanvig104@yahoo.com>
+Date:   Wed Jun 17 19:13:47 2015 -0500
+
+    added more detailed method descriptions
+
+commit 79d652af81011743aac67397d3f81a0f4efa3e5a
+Author: bkvanvig <bkvanvig104@yahoo.com>
+Date:   Wed Jun 17 19:09:51 2015 -0500
+
+    removed backup files
+
+commit e9778d36ff7cf81db18dcaca0ecbceb09513d5e0
+Author: bkvanvig <bkvanvig104@yahoo.com>
+Date:   Wed Jun 17 19:08:31 2015 -0500
+
+    ran Doxygen, close #22
+
+commit bea2fae3cdbcce9997b2b7abb4222ad0637babd3
+Author: bkvanvig <bkvanvig104@yahoo.com>
+Date:   Wed Jun 17 18:48:06 2015 -0500
+
+    nearly final
+
+commit 99f6a5c978913d755b457097f67d39df07c22a59
+Merge: cdfe950 6d14132
+Author: bkvanvig <bkvanvig104@yahoo.com>
+Date:   Wed Jun 17 18:30:08 2015 -0500
+
+    Merge branch 'dev'
+
+commit cdfe950dfe38bec1e1baabb93afc2c674082efba
+Author: bkvanvig <bkvanvig104@yahoo.com>
+Date:   Wed Jun 17 18:28:44 2015 -0500
+
+    updated Collatz file
+
+commit 6d141324e8b9f8a1d0cfb7d7e0a120b6a2a2284d
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:18:40 2015 -0500
+
+    Delete type_traits.h.gcov
+
+commit 7c7cd1efacd5c83d73b8434c92b05d2522363c71
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:18:31 2015 -0500
+
+    Delete stl_pair.h.gcov
+
+commit f8aeebb6d462dbee4a0ea604ccd9f99aaf785213
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:18:22 2015 -0500
+
+    Delete stl_iterator_base_types.h.gcov
+
+commit af5cdb4736d1bbb173331c8fb023abef54c4c770
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:18:14 2015 -0500
+
+    Delete stl_iterator_base_funcs.h.gcov
+
+commit 95109f759b6caaffa65246cc3136c1587ecf25ce
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:18:07 2015 -0500
+
+    Delete sstream.gcov
+
+commit 20cbfd74b46c1af286255acc88d486442141636c
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:18:00 2015 -0500
+
+    Delete new_allocator.h.gcov
+
+commit e80a280a932c014703f07be75bc70d97b69ffcdd
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:17:51 2015 -0500
+
+    Delete move.h.gcov
+
+commit 9d3d5c6ff230f2126cc8cd54ad605aaed2e20b5d
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:17:43 2015 -0500
+
+    Delete locale_facets.h.gcov
+
+commit 900e45b9abaff80388898a04ab73a55fbc8e37b7
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:17:37 2015 -0500
+
+    Delete iostream.gcov
+
+commit 3ed2a3c8b1c66cf82405d0166ffe12482086fc56
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:17:28 2015 -0500
+
+    Delete ios_base.h.gcov
+
+commit af67ec13425306e600cb8500a99d8f2fedae7e5e
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:17:19 2015 -0500
+
+    Delete gthr-default.h.gcov
+
+commit 57a1ea0fa66109bddbec820f2229280f59e75bc4
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:17:11 2015 -0500
+
+    Delete gtest.h.gcov
+
+commit 955811bfc27a93d100ebaeb5bf102025b5305130
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:17:04 2015 -0500
+
+    Delete gtest-printers.h.gcov
+
+commit 8fcafc18c664ce977bb3d6ee653aabe1764714b4
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:16:57 2015 -0500
+
+    Delete gtest-port.h.gcov
+
+commit d9cb78b71569c92d15aa213eb9d50c6fc88ad4c4
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:16:52 2015 -0500
+
+    Delete gtest-message.h.gcov
+
+commit 11d86aa9c3d530cc9b5a168dcbf749de228f8bc2
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:16:44 2015 -0500
+
+    Delete gtest-internal.h.gcov
+
+commit b1ef8ff57efdc450bf69acccc97ecd64207f4dfa
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:16:32 2015 -0500
+
+    Delete char_traits.h.gcov
+
+commit 0578b915459c5314765c6b99fa9f7a562271d934
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:16:26 2015 -0500
+
+    Delete basic_string.tcc.gcov
+
+commit b1b132d88ed2939911b97d8de12225a6c539ef28
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:16:13 2015 -0500
+
+    Delete basic_string.h.gcov
+
+commit d4596bc26e85538c805a9220930d8ca97f687e5f
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:16:06 2015 -0500
+
+    Delete atomicity.h.gcov
+
+commit 436c451cc68485b859877caa3833502a5fe124a1
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:15:58 2015 -0500
+
+    Delete allocator.h.gcov
+
+commit 13ddd9fbb47ed6d7876e0e6b2d141cd66492ca7c
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:15:50 2015 -0500
+
+    Delete a.out
+
+commit 9bf0320c4770e1ffed50d9177917d98ae1b52f99
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:15:47 2015 -0500
+
+    Delete TestCollatz.gcno
+
+commit d15300dc37c32aedce3282393b99a693baa96344
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:15:42 2015 -0500
+
+    Delete TestCollatz.gcda
+
+commit e94f0e82482af640efaba8a5cfd87cf07f802a47
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:15:38 2015 -0500
+
+    Delete TestCollatz.c++.gcov
+
+commit cc8b77b98c39ed1579ce82b0821f9e2835f5ecfe
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:15:25 2015 -0500
+
+    Delete Collatz.gcno
+
+commit 4ec84f4a3b0cb7d4679d7bd4f90bcd3e7928dc0e
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:15:20 2015 -0500
+
+    Delete Collatz.gcda
+
+commit 7b21b9233ab5f97d558bc54d2ce487c18e6c6ec9
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:14:42 2015 -0500
+
+    Delete Collatz.c++.gcov
+
+commit 7d60f2eb6b30f4a06dd9d85ebf2200a40a3df82f
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:14:27 2015 -0500
+
+    Delete .nfs00000000037c1d070000004b
+
+commit 13606ca7d8ab2c484ecb968bc87356c92a8d222f
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:14:06 2015 -0500
+
+    Delete .nfs00000000037c1cfe0000004c
+
+commit 85f44ac5e0c8d61c1cb8b11a18ca7e8bf3260857
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:13:58 2015 -0500
+
+    Delete .makefile.swp
+
+commit 59301530decf15b0c7a16f2200d69b0f73231a1f
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Wed Jun 17 18:13:50 2015 -0500
+
+    Delete .nfs00000000037c1cfd00000039
+
+commit e8788d5b308c3f11b7d046a943f8a3155defc2b9
+Author: bkvanvig <bkvanvig104@yahoo.com>
+Date:   Wed Jun 17 18:09:58 2015 -0500
+
+    reran make test
+
+commit 951b85e026615d193ef5004d0460d5e900b2402a
+Author: bkvanvig <bkvanvig104@yahoo.com>
+Date:   Wed Jun 17 18:09:12 2015 -0500
+
+    updated files
+
+commit b07bf08401806251aaefe69fb2767803bcdec6f3
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 22:10:56 2015 -0500
+
+    updated READEME
+
+commit cae02f27a4c9c9595fcd6e2e4cda2bc99b6606ed
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 22:08:15 2015 -0500
+
+    updated eid file
+
+commit 4e125492e3f2fa09161f0fbc2bf31d222e65d346
+Merge: 193beeb 73fced6
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Tue Jun 16 22:03:04 2015 -0500
+
+    Merge pull request #30 from bkvanvig/dev
+    
+    added ifdef cache, close #19
+
+commit 73fced6d7a67463b11156a3f85dcf43e3af56a80
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 22:02:03 2015 -0500
+
+    sped up cached version of SphereCollatz
+
+commit ce449f30ed1766edbe89ec6160b7507b4e1edf96
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 21:53:09 2015 -0500
+
+    updated SphereCollatz file
+
+commit 7eaf22bd2ce332cbe319eedba2a8a7ce357f21d4
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 21:04:52 2015 -0500
+
+    added ifdef cache, close #19
+
+commit 193beeb9ad0460782ebba9899dc87601fd4f042a
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 20:17:03 2015 -0500
+
+    improving coverage
+
+commit 1368643f1f54fcdded2124e61fe7381e03ffb49e
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 20:02:02 2015 -0500
+
+    corrected test answer
+
+commit 88238e6f20e8780a64343ef891f908314e3febe7
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 19:38:37 2015 -0500
+
+    changed test to long range
+
+commit 79afb2018d6ca3536dd4b0c7e97fe9b07197bbef
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 17:56:48 2015 -0500
+
+    fixed test number
+
+commit a4bb156d048f0455c4f6b7ce48f3aa1cbcc0c7de
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 17:28:55 2015 -0500
+
+    cloned test repo
+
+commit b7a7d7f825704c815fa0a52fb7ef9c3fda10bc71
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 17:27:08 2015 -0500
+
+    added more tests
+
+commit 9f913dff81c264aa88118719b23bd1621c790833
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 17:20:21 2015 -0500
+
+    edited makefile
+
+commit bacf24ceb15521e2e23cb640a5e557d1038251f2
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 17:07:22 2015 -0500
+
+    replaced EID with my own
+
+commit bb33e6bd5bd3ba848ea1cacd88b0c49f6b28ac36
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 17:03:05 2015 -0500
+
+    solution accepted by sphere, close #20, close #21
+
+commit b0db627a93d31da558c143a053dba149500281d4
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 16:56:24 2015 -0500
+
+    fixed math error
+
+commit 2843d633f40f6c77cea26cdd7daf2a4c4eb762ea
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 16:48:30 2015 -0500
+
+    added cache, closes #18
+
+commit e71e57db691e250f06576d4d9cbb0f9f1c6eb2d4
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 16:31:59 2015 -0500
+
+    fixed typo in for loop of populate_cache
+
+commit 689ff4c0dc75d9d258480942b566e55db100038e
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 16:24:06 2015 -0500
+
+    optimized calculations
+
+commit 67bd844337e5b8a1b1acd921893b60f7ae4f1920
+Merge: ef45a27 2fdfc61
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Tue Jun 16 15:37:58 2015 -0500
+
+    Merge pull request #29 from bkvanvig/master
+    
+    Merge with master
+
+commit 2fdfc61071af9f5769a6df86b6ac3e98048c66ab
+Merge: bbe0a18 ef45a27
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Tue Jun 16 15:34:59 2015 -0500
+
+    Merge pull request #28 from bkvanvig/dev
+    
+    Dev
+
+commit ef45a2793afaa0d18e66f10ab01b6c3f52faf179
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Tue Jun 16 15:33:14 2015 -0500
+
+    Delete a.out
+
+commit 7aa97557719de67ac2e976b7e6e5da1da9623503
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Tue Jun 16 15:33:05 2015 -0500
+
+    Delete TestCreation.c++~
+
+commit a8fe721f09ff636c8da39d67b2ae08d60db48901
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Tue Jun 16 15:32:58 2015 -0500
+
+    Delete TestCollatz.c++~
+
+commit baecdd723e56d124baecf6a6d5fb6f3cf96d54c9
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Tue Jun 16 15:32:49 2015 -0500
+
+    Delete SphereCollatz.c++~
+
+commit 04d65c83e825c3f6d1fb3eee6e9ff53b3bef830d
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Tue Jun 16 15:32:39 2015 -0500
+
+    Delete RunCollatz.in~
+
+commit cbf0efe13ce412fa16dc53182104686f255705a2
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Tue Jun 16 15:32:31 2015 -0500
+
+    Delete RunCollatz.c++~
+
+commit f10fb563ae61cd0eecc35700e7dfaa2fd9e0e065
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Tue Jun 16 15:31:59 2015 -0500
+
+    Delete README~
+
+commit 9fe9b93906746a483433244ebbfc2450ae386382
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Tue Jun 16 15:31:40 2015 -0500
+
+    Delete Collatz.c++~
+
+commit e3ff1280a78a42bfbb566bfd44789124aee78a90
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Tue Jun 16 15:31:28 2015 -0500
+
+    Delete .travis.yml~
+
+commit 3869ac2c402978d14254e90d1d5e9b24a17ec9fd
+Author: Brittany Kvanvig <bkvanvig@users.noreply.github.com>
+Date:   Tue Jun 16 15:31:21 2015 -0500
+
+    Delete .travis.yml.swp
+
+commit cb1e232741355c5ad051705cd845c62de4e2f96f
+Author: bkvanvig <bkvanvig104@yahoo.com>
+Date:   Tue Jun 16 15:19:01 2015 -0500
+
+    Got TestCollatz to quit complaining by not calling populate_cache
+
+commit 6eb07ef33018a7766437e061ea98e64280bb07da
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 15:06:37 2015 -0500
+
+    added print statements for debugging purposes
+
+commit 305d6e7ed9922e28de3b8b6e1ca9e5a3f5d8ecf2
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 15:02:36 2015 -0500
+
+    cache failing when in header
+
+commit 41c59b1f2420f7b6abfa526b2856d3b5c6429455
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 15:00:44 2015 -0500
+
+    multiple declarations error
+
+commit 3e2f960c895808172091a7092c29689097b73dc3
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 14:58:45 2015 -0500
+
+    debugging valgrind error
+
+commit 2f9500991672c53fa01bc3fb86ab371968827ce8
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 14:53:06 2015 -0500
+
+    debugging valgrind error
+
+commit 53e69a1948e7d014f177c2b6361bf53e6ff6ea46
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 14:47:38 2015 -0500
+
+    moved populate_cache declaration
+
+commit 6ab6546cafab4dca16fe0aea2a443dc8a8003e89
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 14:43:12 2015 -0500
+
+    missing return statement was breaking everything
+
+commit 4810de0e7313932a318105c9ad022001c0ddb3e3
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 14:41:06 2015 -0500
+
+    moved populate_cache call to RunCollatz main
+
+commit e17af9485da6c2b3d3a139173a720a3431953204
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 14:38:47 2015 -0500
+
+    edited TestCollatz
+
+commit 79a91f1277e32b28f47912b772475eed614c4175
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 14:37:02 2015 -0500
+
+    removed call to populate_cache in collatz_eval for easier testing
+
+commit 274d7f47c025c8b601d5564f2f35ffcbc1714a4e
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 14:28:56 2015 -0500
+
+    hopefully fixed uninitialized cache error when testing
+
+commit 62e9201ec0096d775cd53b39daf44d059612d5ad
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 14:24:42 2015 -0500
+
+    Still debugging TestCollatz failure
+
+commit fd6c715da86620c0b8c78c6e39520be0c27bfce9
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 14:19:34 2015 -0500
+
+    debugging TestCollatz freeze
+
+commit ba77b73d0f42a4d3475a759743b9e6f0ebbc659e
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 14:17:25 2015 -0500
+
+    eliminated possible troubling test cases
+
+commit ebb601018072dd6c2ed3c0158d61706d73d9106f
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 14:11:08 2015 -0500
+
+    added cache initializations
+
+commit 134dfb3ef62654e801975c42f64ef673f4951436
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 13:55:47 2015 -0500
+
+    fixed typo
+
+commit 5f53e09375d5a8b905e6d685767580cc1184c664
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 16 13:46:14 2015 -0500
+
+    added simple cache
+
+commit bbe0a18c5b7386cdefcaf3a7923d8529e98a35b6
+Author: bmk447 <bmk447@cs.utexas.edu>
+Date:   Tue Jun 16 12:54:33 2015 -0500
+
+    removed backup files
+
+commit 5f624abc12a048f6bf4de97fdf6a9d4296b12329
+Author: bmk447 <bmk447@cs.utexas.edu>
+Date:   Wed Jun 10 18:15:58 2015 -0500
+
+    updated time log
+
+commit a938e27913ce867a60991f8b936c14ce7a8bdb3d
+Author: bmk447 <bmk447@cs.utexas.edu>
+Date:   Wed Jun 10 18:15:13 2015 -0500
+
+    updated time log
+
+commit 163c1992cace6b349ddb667a46a317aa2f243aba
+Author: bmk447 <bmk447@cs.utexas.edu>
+Date:   Wed Jun 10 18:01:15 2015 -0500
+
+    created acceptance tests
+
+commit 89f840c82866dffb1b47af23a748f5fdfc0d95f4
+Author: bmk447 <bmk447@cs.utexas.edu>
+Date:   Wed Jun 10 17:26:22 2015 -0500
+
+    created SphereCollatz.c++, accepted by Sphere, closes #14, closes #15
+
+commit 0f8c8b24440cce873473ef838746f580012c9bfd
+Author: bmk447 <bmk447@cs.utexas.edu>
+Date:   Wed Jun 10 17:07:14 2015 -0500
+
+    added assertions to collatz
+
+commit 0a5d5b3db4c8ea78a4d648c537965ccf1e04f6ce
+Author: bmk447 <bmk447@cs.utexas.edu>
+Date:   Wed Jun 10 16:58:05 2015 -0500
+
+    added test cases to TestCollatz.out, fixed i>j problem in Collatz
+
+commit b468e9e5d738ae9cd6ba6fdc24e0d7896d7c5314
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 9 14:07:08 2015 -0500
+
+    fixed silly test renaming error
+
+commit 9fb9a7767f6bda89f78f35c274de76760c45a569
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 9 13:59:37 2015 -0500
+
+    added more unit tests, close #11, #12, #13
+
+commit 2ff8772f46f33cf30513ee212cb44f4571660c71
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 9 13:48:09 2015 -0500
+
+    fixed typo causing failures, close 13
+
+commit 8e3cc52a70bc4b52f7137d497e93f5a417f77e36
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 9 13:46:15 2015 -0500
+
+    still fixing math error
+
+commit 80cbb96f7939ecd9721bec2882c1864103e7e5e6
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 9 13:39:36 2015 -0500
+
+    fixed math error
+
+commit d82de52a6617372ed227bcc0427407716b237e2d
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 9 13:26:21 2015 -0500
+
+    fixed forward declaration error
+
+commit d2ce65bc207b49e52cb18627059c7d40101f018f
+Author: Brittany Kvanvig <brittany.kvanvig@utexas.edu>
+Date:   Tue Jun 9 13:15:39 2015 -0500
+
+    added simple, dumb solution
+
+commit 18243d227661ba3625b17382e27c7eef2b64a92b
+Author: bmk447 <bmk447@cs.utexas.edu>
+Date:   Tue Jun 9 12:48:54 2015 -0500
+
+    fixed unit test conditions, should fail build
+
+commit c440413c12e5e65e46dc2e6e80847cf71d4acad4
+Author: bmk447 <bmk447@cs.utexas.edu>
+Date:   Tue Jun 9 12:40:23 2015 -0500
+
+    switched asserts back to 1 to test build
+
+commit 24f2db292cbe74ecbb16d132878cb96533af1736
+Author: bmk447 <bmk447@cs.utexas.edu>
+Date:   Mon Jun 8 18:55:01 2015 -0500
+
+    switched to nonfatal assertions
+
+commit 182ecc54b52e6856a6983ea7198be74e02bd7422
+Author: bmk447 <bmk447@cs.utexas.edu>
+Date:   Mon Jun 8 18:38:23 2015 -0500
+
+    updated readme time log
+
+commit b19d578fc80cc346ed8d2cd15f1f0b9823ae5a87
+Author: bmk447 <bmk447@cs.utexas.edu>
+Date:   Mon Jun 8 18:36:47 2015 -0500
+
+    testcollatz update
+
+commit 30f06480fca43974afb87030212c1d4ba837fe93
+Author: bmk447 <bmk447@cs.utexas.edu>
+Date:   Mon Jun 8 18:27:58 2015 -0500
+
+    fixed unit tests, should now fail tests, close 11
+
+commit dc428511e4d9e93c33e0548ed2d5f67a09a4e494
+Author: bmk447 <bmk447@cs.utexas.edu>
+Date:   Mon Jun 8 17:40:41 2015 -0500
+
+    fixed sudo:required declaration
+
+commit a529e790f676db85fdde3a0924790d870db8bb77
+Author: bmk447 <bmk447@cs.utexas.edu>
+Date:   Mon Jun 8 17:37:42 2015 -0500
+
+    added sudo: required to travis file
+
+commit 38918d5b5051a523fa20554fa5b3e82caca8f5ef
+Author: bmk447 <bmk447@cs.utexas.edu>
+Date:   Mon Jun 8 17:31:18 2015 -0500
+
+    added travis file
+
+commit 9d4a9dcd042da6eb6fc0e215aeff25fb49734f65
+Author: bmk447 <bmk447@cs.utexas.edu>
+Date:   Mon Jun 8 17:13:59 2015 -0500
+
+    removed travis file from master branch
+
+commit 7723debe5d07b6571f50e1242759cc03d5bb170f
+Author: bmk447 <bmk447@cs.utexas.edu>
+Date:   Mon Jun 8 17:05:31 2015 -0500
+
+    added travis yml ?
+
+commit 8523c53e88e753c3d4ce847d3b2b20d8df08ba72
+Author: bmk447 <bmk447@cs.utexas.edu>
+Date:   Mon Jun 8 16:51:37 2015 -0500
+
+    corrected the names of files
+
+commit c7c761ef1bd7be7e51ed67e66ae3d5b922041e20
+Author: bmk447 <bmk447@cs.utexas.edu>
+Date:   Mon Jun 8 16:46:13 2015 -0500
+
+    initialize repo
