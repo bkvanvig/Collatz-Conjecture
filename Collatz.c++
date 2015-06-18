@@ -97,7 +97,7 @@ int collatz_calc (int i){
 }
 
 // -------------
-// collatz_calc
+// populate_cache
 // -------------
 
 void populate_cache (int i, int j){
