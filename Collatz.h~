@@ -57,6 +57,7 @@ int collatz_calc (int i);
 /**
  * fill in cycle lengths for indicies i-j
  * @param two ints, i & j
+ * @return nothing, populates cache instead
  */
 void populate_cache (int i, int j);
 
