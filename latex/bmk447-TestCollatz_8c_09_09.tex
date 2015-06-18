@@ -1,0 +1,355 @@
+\hypertarget{bmk447-TestCollatz_8c_09_09}{\section{bmk447-\/\-Test\-Collatz.c++ File Reference}
+\label{bmk447-TestCollatz_8c_09_09}\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+}
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$sstream$>$}\\*
+{\ttfamily \#include $<$string$>$}\\*
+{\ttfamily \#include $<$utility$>$}\\*
+{\ttfamily \#include \char`\"{}gtest/gtest.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Collatz.\-h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a66f4163404a0842f4f9eb6dcbfb35580}{T\-E\-S\-T} (Collatz\-Fixture, read\-\_\-1)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a3187ab2baa687bc11ef1402f3c5ac249}{T\-E\-S\-T} (Collatz\-Fixture, read\-\_\-2)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a910fd6352964fadd13f189dfb49f46f4}{T\-E\-S\-T} (Collatz\-Fixture, read\-\_\-3)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a0b5a76cb98b330891857af6177a4ee52}{T\-E\-S\-T} (Collatz\-Fixture, read\-\_\-4)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_aa0fcdadaf0d4f7fe0919c37746fe7c74}{T\-E\-S\-T} (Collatz\-Fixture, eval\-\_\-1)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a333bb6921f06fa177e9818dbcf3eda06}{T\-E\-S\-T} (Collatz\-Fixture, eval\-\_\-2)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a251001c75c1226c607534268ab3a5bcb}{T\-E\-S\-T} (Collatz\-Fixture, eval\-\_\-3)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a033aa388470c35adc9579303dba1afa2}{T\-E\-S\-T} (Collatz\-Fixture, eval\-\_\-4)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_ab529bbfe532bd0b6fbc11c51fe0af7e5}{T\-E\-S\-T} (Collatz\-Fixture, eval\-\_\-5)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_adebb7237f2a00c256cd0c733885ccd58}{T\-E\-S\-T} (Collatz\-Fixture, eval\-\_\-6)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a4428eb890eb2825bcd806812ccf3edc3}{T\-E\-S\-T} (Collatz\-Fixture, eval\-\_\-7)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_ad31ddf657ad806c35457117d9a862a43}{T\-E\-S\-T} (Collatz\-Fixture, eval\-\_\-8)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a2e12d9c89f94e5227e499d7703f9dfaa}{T\-E\-S\-T} (Collatz\-Fixture, eval\-\_\-9)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a8857cd942908a7bb202c0fb613a008ce}{T\-E\-S\-T} (Collatz\-Fixture, eval\-\_\-10)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a4a99476c845b27c020c894ff56c5331e}{T\-E\-S\-T} (Collatz\-Fixture, eval\-\_\-11)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a9f543cfd5909f2cde83c41163f51fd19}{T\-E\-S\-T} (Collatz\-Fixture, eval\-\_\-12)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_adae6c5f13da05a89defd5d9fcbeed946}{T\-E\-S\-T} (Collatz\-Fixture, calc\-\_\-1)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_ad658667ed2888001269e9ca5cf857e1e}{T\-E\-S\-T} (Collatz\-Fixture, calc\-\_\-2)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a30c66323dc99d8f1576cba4417949584}{T\-E\-S\-T} (Collatz\-Fixture, calc\-\_\-3)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a004610af3ef14ddf1d675d6e60324ef9}{T\-E\-S\-T} (Collatz\-Fixture, calc\-\_\-4)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_aa75dc6a5c193c3ce46ad0664fc78532c}{T\-E\-S\-T} (Collatz\-Fixture, calc\-\_\-5)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a93645a45052dd4e0cee9944fb13aae75}{T\-E\-S\-T} (Collatz\-Fixture, calc\-\_\-6)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_af241176a966815dfc9ce297cbc34283e}{T\-E\-S\-T} (Collatz\-Fixture, calc\-\_\-7)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a95a2f110180b0df47e69d63c0a380a9e}{T\-E\-S\-T} (Collatz\-Fixture, calc\-\_\-8)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a8126631b320ff31950667901a7057339}{T\-E\-S\-T} (Collatz\-Fixture, calc\-\_\-9)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a6d489cc331215d5a6ea0882afc975351}{T\-E\-S\-T} (Collatz\-Fixture, calc\-\_\-10)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a4bb3bce9465d20c35ec420e187f958c8}{T\-E\-S\-T} (Collatz\-Fixture, print\-\_\-1)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a710b14401102f6b4647268dd499a6c63}{T\-E\-S\-T} (Collatz\-Fixture, print\-\_\-2)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a3395d41febaedb3e4da972563e0cd383}{T\-E\-S\-T} (Collatz\-Fixture, print\-\_\-3)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_ab955fb99f29049a09141ef516e672f4f}{T\-E\-S\-T} (Collatz\-Fixture, print\-\_\-4)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a3a16aafdd5586fe2f7442e7530e2ab6f}{T\-E\-S\-T} (Collatz\-Fixture, solve\-\_\-1)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a231d54f2c8c30622abc04e3e0fddb29f}{T\-E\-S\-T} (Collatz\-Fixture, solve\-\_\-2)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a5a6c3fb3d6ec07ebde790a169240adbe}{T\-E\-S\-T} (Collatz\-Fixture, solve\-\_\-3)
+\item 
+\hyperlink{bmk447-TestCollatz_8c_09_09_a208c5ad95cbd79851e4815046c3718f6}{T\-E\-S\-T} (Collatz\-Fixture, solve\-\_\-4)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a66f4163404a0842f4f9eb6dcbfb35580}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{read\-\_\-1}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a66f4163404a0842f4f9eb6dcbfb35580}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a3187ab2baa687bc11ef1402f3c5ac249}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{read\-\_\-2}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a3187ab2baa687bc11ef1402f3c5ac249}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a910fd6352964fadd13f189dfb49f46f4}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{read\-\_\-3}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a910fd6352964fadd13f189dfb49f46f4}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a0b5a76cb98b330891857af6177a4ee52}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{read\-\_\-4}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a0b5a76cb98b330891857af6177a4ee52}
+\hypertarget{bmk447-TestCollatz_8c_09_09_aa0fcdadaf0d4f7fe0919c37746fe7c74}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{eval\-\_\-1}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_aa0fcdadaf0d4f7fe0919c37746fe7c74}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a333bb6921f06fa177e9818dbcf3eda06}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{eval\-\_\-2}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a333bb6921f06fa177e9818dbcf3eda06}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a251001c75c1226c607534268ab3a5bcb}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{eval\-\_\-3}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a251001c75c1226c607534268ab3a5bcb}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a033aa388470c35adc9579303dba1afa2}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{eval\-\_\-4}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a033aa388470c35adc9579303dba1afa2}
+\hypertarget{bmk447-TestCollatz_8c_09_09_ab529bbfe532bd0b6fbc11c51fe0af7e5}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{eval\-\_\-5}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_ab529bbfe532bd0b6fbc11c51fe0af7e5}
+\hypertarget{bmk447-TestCollatz_8c_09_09_adebb7237f2a00c256cd0c733885ccd58}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{eval\-\_\-6}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_adebb7237f2a00c256cd0c733885ccd58}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a4428eb890eb2825bcd806812ccf3edc3}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{eval\-\_\-7}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a4428eb890eb2825bcd806812ccf3edc3}
+\hypertarget{bmk447-TestCollatz_8c_09_09_ad31ddf657ad806c35457117d9a862a43}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{eval\-\_\-8}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_ad31ddf657ad806c35457117d9a862a43}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a2e12d9c89f94e5227e499d7703f9dfaa}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{eval\-\_\-9}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a2e12d9c89f94e5227e499d7703f9dfaa}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a8857cd942908a7bb202c0fb613a008ce}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{eval\-\_\-10}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a8857cd942908a7bb202c0fb613a008ce}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a4a99476c845b27c020c894ff56c5331e}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{eval\-\_\-11}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a4a99476c845b27c020c894ff56c5331e}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a9f543cfd5909f2cde83c41163f51fd19}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{eval\-\_\-12}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a9f543cfd5909f2cde83c41163f51fd19}
+\hypertarget{bmk447-TestCollatz_8c_09_09_adae6c5f13da05a89defd5d9fcbeed946}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{calc\-\_\-1}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_adae6c5f13da05a89defd5d9fcbeed946}
+\hypertarget{bmk447-TestCollatz_8c_09_09_ad658667ed2888001269e9ca5cf857e1e}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{calc\-\_\-2}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_ad658667ed2888001269e9ca5cf857e1e}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a30c66323dc99d8f1576cba4417949584}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{calc\-\_\-3}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a30c66323dc99d8f1576cba4417949584}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a004610af3ef14ddf1d675d6e60324ef9}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{calc\-\_\-4}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a004610af3ef14ddf1d675d6e60324ef9}
+\hypertarget{bmk447-TestCollatz_8c_09_09_aa75dc6a5c193c3ce46ad0664fc78532c}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{calc\-\_\-5}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_aa75dc6a5c193c3ce46ad0664fc78532c}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a93645a45052dd4e0cee9944fb13aae75}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{calc\-\_\-6}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a93645a45052dd4e0cee9944fb13aae75}
+\hypertarget{bmk447-TestCollatz_8c_09_09_af241176a966815dfc9ce297cbc34283e}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{calc\-\_\-7}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_af241176a966815dfc9ce297cbc34283e}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a95a2f110180b0df47e69d63c0a380a9e}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{calc\-\_\-8}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a95a2f110180b0df47e69d63c0a380a9e}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a8126631b320ff31950667901a7057339}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{calc\-\_\-9}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a8126631b320ff31950667901a7057339}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a6d489cc331215d5a6ea0882afc975351}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{calc\-\_\-10}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a6d489cc331215d5a6ea0882afc975351}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a4bb3bce9465d20c35ec420e187f958c8}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{print\-\_\-1}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a4bb3bce9465d20c35ec420e187f958c8}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a710b14401102f6b4647268dd499a6c63}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{print\-\_\-2}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a710b14401102f6b4647268dd499a6c63}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a3395d41febaedb3e4da972563e0cd383}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{print\-\_\-3}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a3395d41febaedb3e4da972563e0cd383}
+\hypertarget{bmk447-TestCollatz_8c_09_09_ab955fb99f29049a09141ef516e672f4f}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{print\-\_\-4}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_ab955fb99f29049a09141ef516e672f4f}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a3a16aafdd5586fe2f7442e7530e2ab6f}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{solve\-\_\-1}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a3a16aafdd5586fe2f7442e7530e2ab6f}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a231d54f2c8c30622abc04e3e0fddb29f}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{solve\-\_\-2}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a231d54f2c8c30622abc04e3e0fddb29f}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a5a6c3fb3d6ec07ebde790a169240adbe}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{solve\-\_\-3}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a5a6c3fb3d6ec07ebde790a169240adbe}
+\hypertarget{bmk447-TestCollatz_8c_09_09_a208c5ad95cbd79851e4815046c3718f6}{\index{bmk447-\/\-Test\-Collatz.\-c++@{bmk447-\/\-Test\-Collatz.\-c++}!T\-E\-S\-T@{T\-E\-S\-T}}
+\index{T\-E\-S\-T@{T\-E\-S\-T}!bmk447-TestCollatz.c++@{bmk447-\/\-Test\-Collatz.\-c++}}
+\subsubsection[{T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}T\-E\-S\-T (
+\begin{DoxyParamCaption}
+\item[{Collatz\-Fixture}]{, }
+\item[{solve\-\_\-4}]{}
+\end{DoxyParamCaption}
+)}}\label{bmk447-TestCollatz_8c_09_09_a208c5ad95cbd79851e4815046c3718f6}
