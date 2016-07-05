@@ -1,1 +1,1 @@
-Implementation of the Collatz conjecture
+Implementation of the Collatz conjecture utilizing TravisCI and with documentation using Doxygen
